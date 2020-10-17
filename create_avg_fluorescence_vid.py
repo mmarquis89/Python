@@ -23,7 +23,7 @@
 import os
 import numpy as np
 import matplotlib.pyplot as plt
-from helperFunctions import num_subplots, set_figpos
+from helperfunctions import num_subplots, set_figpos
 
 def main(parentDir, sids, nChannels=1, maxintensity=900):
     

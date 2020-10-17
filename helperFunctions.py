@@ -10,7 +10,7 @@ import numpy as np
 
 
 #==================================================================================================                
-# FILE SAVING FUNCTIONS
+# FILE I/O FUNCTIONS
 #==================================================================================================    
 
 #--------------------------------------------------------------------------------------------------      
@@ -27,7 +27,36 @@ def save_arr(saveDir, fileName, obj):
         np.save(saveFile, obj)       
 #--------------------------------------------------------------------------------------------------
 
+#--------------------------------------------------------------------------------------------------
+# Load data from a scanimage .tif file and extract metadata
+def read_tif(tifPath):
+    import tifffile
+    
+        # Load file
+    with tifffile.TiffFile(tifPath) as tifObj:
+    
+        # Extract scanimage metadata
+        metadata = tifObj.scanimage_metadata['Description']
+        if metadata is not None:
+            nPlanes = metadata['scanimage.SI.hFastZ.numFramesPerVolume']
+            nVolumes = metadata['scanimage.SI.hFastZ.numVolumes']
+            nChannels = len(metadata['scanimage.SI.hChannels.channelSave'])
+            scanimageData = {'nVolumes':nVolumes, 'nChannels':nChannels}
         
+        # Extract image data
+        tifArr = tifObj.asarray()
+        for iChan in range(0,nChannels):
+            currChArr = tifArr[iChan::2, :, :]
+            if iChan == 0:
+                ySize = currChArr.shape[1]
+                xSize = currChArr.shape[2]
+                chData = np.empty((ySize, xSize, nPlanes, nVolumes, nChannels))
+            chData[:,:,:,:, iChan] = np.transpose(currChArr.reshape(nVolumes, nPlanes, ySize, xSize),
+                                                  (2, 3, 1, 0))  # --> [y, x, plane, volume, channel]
+    return (metadata, scanimageData, chData)
+#--------------------------------------------------------------------------------------------------
+   
+
 #==================================================================================================    
 # PLOTTING FUNCTIONS
 #==================================================================================================    
@@ -106,4 +135,9 @@ def prime_factors(n):
             if n == 1:
                 return result
 #--------------------------------------------------------------------------------------------------
-    
+
+#--------------------------------------------------------------------------------------------------
+def print_loop_status(i, interval = 100):
+    if i % interval == 0:
+        print(i)
+#--------------------------------------------------------------------------------------------------

@@ -21,38 +21,10 @@
 import os
 import glob
 import numpy as np
-import tifffile
 import time 
-from helperFunctions import json_save, save_arr
+from helperfunctions import json_save, save_arr, read_tif
 
-#--------------------------------------------------------------------------------------------------
-# Load data from file and extract metadata
-#--------------------------------------------------------------------------------------------------
-def read_tif(tifPath):
 
-        # Load file
-    with tifffile.TiffFile(tifPath) as tifObj:
-    
-        # Extract scanimage metadata
-        metadata = tifObj.scanimage_metadata['Description']
-        nPlanes = metadata['scanimage.SI.hFastZ.numFramesPerVolume']
-        nVolumes = metadata['scanimage.SI.hFastZ.numVolumes']
-        nChannels = len(metadata['scanimage.SI.hChannels.channelSave'])
-        scanimageData = {'nVolumes':nVolumes, 'nChannels':nChannels}
-        
-        # Extract image data
-        tifArr = tifObj.asarray()
-        for iChan in range(0,nChannels):
-            currChArr = tifArr[iChan::2, :, :]
-            if iChan == 0:
-                ySize = currChArr.shape[1]
-                xSize = currChArr.shape[2]
-                chData = np.empty((ySize, xSize, nPlanes, nVolumes, nChannels))
-            chData[:,:,:,:, iChan] = np.transpose(currChArr.reshape(nVolumes, nPlanes, ySize, xSize),
-                                                  (2, 3, 1, 0))  # --> [y, x, plane, volume, channel]
-    return (metadata, scanimageData, chData) 
-
-# =================================================================================================  
 
 def main(parentDir, sids, expDate):
         

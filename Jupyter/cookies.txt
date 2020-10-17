@@ -1,0 +1,25 @@
+# Netscape HTTP Cookie File
+# https://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file! Do not edit.
+
+.mozilla.org	TRUE	/	FALSE	1500823645	_gat_UA-36116321-1	1
+addons.mozilla.org	FALSE	/	FALSE	1571508956	installButtonWarningExperiment	excludeWarning
+#HttpOnly_addons.mozilla.org	FALSE	/	TRUE	0	taarId	3955208f85e9acd6edcd4ed6531ed500cdd5d0b4b516789ab945db27f453c35f
+.mozilla.org	TRUE	/	FALSE	1665508550	_ga	GA1.2.888493232.1568916958
+.mozilla.org	TRUE	/	FALSE	1602522950	_gid	GA1.2.1895497357.1602436551
+.mozilla.org	TRUE	/	FALSE	1602436610	_gat	1
+#HttpOnly_.google.com	TRUE	/complete/search	FALSE	1617988501	CGIC	Cg1maXJlZm94LWItMS1kIkp0ZXh0L2h0bWwsYXBwbGljYXRpb24veGh0bWwreG1sLGFwcGxpY2F0aW9uL3htbDtxPTAuOSxpbWFnZS93ZWJwLCovKjtxPTAuOA
+#HttpOnly_.google.com	TRUE	/search	FALSE	1617988501	CGIC	Cg1maXJlZm94LWItMS1kIkp0ZXh0L2h0bWwsYXBwbGljYXRpb24veGh0bWwreG1sLGFwcGxpY2F0aW9uL3htbDtxPTAuOSxpbWFnZS93ZWJwLCovKjtxPTAuOA
+#HttpOnly_.google.com	TRUE	/	TRUE	1618247701	NID	204=Yp1zUWI3k8XzFxWgadBr1bEq5A8-r1xtYLrJsCcIJyWZqBYIHshGg69W3u66W5mT-7_gU7UrgpZvHLuZjwq2JgfG5mX1ch3UOKUYr05i6zC_3iKq--RCoTvbTHO6QLsQR-kFHy7xcS4d8g-wjX3Ck_RjQX2bd2Ym44pFsLm-Mgs
+.google.com	TRUE	/	TRUE	1605028502	1P_JAR	2020-10-11-17
+#HttpOnly_.google.com	TRUE	/	TRUE	1665508502	ANID	AHWqTUl7NIOO8tPV8bGb7wdxiCKl0CdI5b_CLz7l5rjjwRDxV2npYChk8kGKJTXh
+#HttpOnly_.atdmt.com	TRUE	/	FALSE	1665508505	ATN	1.1602436505.11140710079503452967.AYKsLl9KE8r1HTFQb4o
+localhost	FALSE	/	FALSE	1588444383	_xsrf	2|56df18b0|e337447820d8768dc6c0d1e3fb3f33e0|1585852383
+#HttpOnly_localhost	FALSE	/	FALSE	1588446207	username-localhost-8888	"2|1:0|10:1585854207|23:username-localhost-8888|44:NTdiYjI4M2Y3M2Y5NGU2MTlkYjVjMmQ5MGYxNTk2NmM=|8dccf1d84fd3874515150ce7613caaf761ee1d776b58f71ce305911cf0eab07e"
+#HttpOnly_.facebook.com	TRUE	/	TRUE	1665508505	datr	mD2DXwHbvtOmTF3l0CUvE9po
+.facebook.com	TRUE	/	TRUE	1603041389	wd	1920x854
+#HttpOnly_.facebook.com	TRUE	/	TRUE	1665508591	sb	mD2DX5i38XN5NqRNsNByQsrN
+.facebook.com	TRUE	/	TRUE	1633972590	c_user	528360933
+#HttpOnly_.facebook.com	TRUE	/	TRUE	1633972590	xs	5%3AM7EStmbvOBu-OA%3A2%3A1602436590%3A2097%3A2984
+#HttpOnly_.facebook.com	TRUE	/	TRUE	1610212589	fr	1v1SQwT70VD67Zzmr.AWV8r6JWkHh_5ufUPbwiPjYGGLQ.Bfgz2Y.oI.AAA.0.0.Bfgz3u.AWVl7GMZsG8
+#HttpOnly_.facebook.com	TRUE	/	TRUE	1602526594	spin	r.1002804957_b.trunk_t.1602436593_s.1_v.2_

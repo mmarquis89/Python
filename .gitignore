@@ -46,3 +46,14 @@ Network Trash Folder
 Temporary Items
 .apdisk
 *.csv
+*.jpg
+*.exe
+*.avi
+*.sql
+*.db
+*.png
+*.gz
+*.json
+*.zip
+*.tab
+*.tsv

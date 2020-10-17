@@ -1,0 +1,90 @@
+1469635103982,Sent,Have you seen the ethyl acetate recently? I'm having trouble finding it
+1469635215290,Sent,Nvm, I found it
+1473437050253,Received,I'm running late, as usual... ETA 12:10ish
+1473437114984,Sent,Haha no problem! I'm parked on Louis Pasteur across from and just beyond NRB
+1475278570354,Received,You guys at Yvettes' place still?
+1475278880148,Sent,Yeah come now!
+1475278907142,Sent,We're getting Dominoes if you're hungry
+1475278979916,Received,Ooh, I am a little hungry. I'm taking an uber.
+1475279037467,Sent,Sounds good, see you soon!
+1478189977218,Sent,Hey do you know if we are out of odor vial caps?
+1478190096249,Received,I think we must be -- I couldn't find any yesterday. There's a bag of caps in the SDC room if we're totally out.
+1478190158849,Received,There's no shortage of vials, that's for sure...
+1478190635224,Sent,Haha very true
+1478190641601,Sent,Okay I'm gonna order some more
+1478193690756,Received,Thank you!
+1482014264632,Received,Alex's address is 28 hingham, right?
+1482014277334,Sent,Yep!
+1482014302845,Received,Where we had the 4th of July party?
+1482014348924,Sent,At least I hope so, since that's where I'm on my way to right now lol
+1482014377861,Sent,Umm idk...that was David's place and my impression was that this is Alex's
+1482014399533,Sent,But honestly I'm not sure...it does look really close to there
+1482015181851,Received,You're right -- it's Alex's place. We were thinking of David's place.
+1482175189618,Sent,Hey did you have a chance to plot some of your new GCaMP data? If not that's totally fine,  I can just use the one from the R01
+1485470898382,Sent,Hey what's the deal with Geranyl Acetate? Do you know any details about Rachel's "concerns about this" note?
+1485475897586,Received,The concern was that the bottle she was using was old and had something other than GA in there. I ordered a brand new one but still saw some weird off-ta
+1485475899409,Received,rget glomeruli like she had, which is why it has been kicked off the private odor list.
+1485522821047,Sent,Ah gotcha...is the new bottle in there somewhere too?
+1485523716823,Received,It may be in the fridge?
+1485524249087,Sent,Oh okay cool
+1490052670193,Received,Wowwwww.
+1492913146186,Received,Would you mind picking up a pack of cigarettes (any type) on your way to the party?
+1492913970799,Sent,Haha yeah...what's your address?
+1497461864784,Received,Hello, Michael. This is Allie, your creepy-ass lab mate!
+1497461905810,Received,Do you happen to know of anyone who would have a small amount of weed on hand?
+1497461953344,Received,Like, just a nug. It's Will's birthday and he wants to smoke a good old fashioned joint.
+1497461978696,Sent,Haha yeah I could spare one
+1497462325799,Received,Hell yes!
+1497462392015,Received,He will be thrilled.
+1497467938775,Received,Do you have it with you here?
+1497468696451,Sent,No but I can bring it in tomorrow
+1497545897790,Sent,Oh I left a present for you in your desk drawer
+1497545908958,Sent,Well more for Will I guess
+1504886281786,Received,I'm running late, as usual. ETA 12:15 pm -- should I just meet you at the car?
+1504886338119,Sent,No worries! Yeah I'll be in pretty much the same spot as last year
+1504886418654,Sent,I have to admit that I seriously considered sending you a separate email saying that we were meeting at 11:45 hahah 
+1504886562907,Received,Hahahah! Do, next time!
+1504886667819,Received,I went out for drinks with Alex last night and am already a hung-over mess. Retreeaaaat, woo!
+1504887488671,Received,Are you on the NRB side of the street?
+1505057563705,Received,Are you guys getting stuff for here, or to-go? 
+1505057633611,Received,That is, should I secure a table for us?
+1505602460316,Received,Some of the lights are out on the Bed, Bath & Beyond sign. It now reads, "TH & BEYOND."
+1505604119633,Sent,Hahaha
+1505604132551,Sent,That would be a great paper title
+1505768482256,Sent,Hey do you know where the Trehalose that you ordered a few weeks ago ended up? 
+1505768583683,Received,I put it in the tub next to the one that was nearly out. It should have the "received on" date written on it.
+1505768802852,Sent,Cool thanks 
+1506030626591,Received,Hand fruit: very disappointing.
+1506030666232,Received,Just an orange. :(
+1506030758121,Sent,Aw I'm sorry haha...I realized that when I Googled it but you told me not to spoil the surprise lol
+1506030814693,Sent,As a consolation, you could image search "fruit Buddha's hand" to see some pictures of a really weird fruit that does exist
+1506030917195,Received,I like the second paragraph. What should NOT be called a hand fruit.
+1506030951518,Received,I should edit it and add, "also, not pears."
+1506030965137,Sent,Hahaha yeah apparently they don't qualify 
+1507682309100,Received,Are you at lab by any chance?
+1507682425999,Sent,No I just left, why? 
+1507682471840,Received,Ah, no worries - I was just going to see if you could restart my computer. 
+1507682969042,Sent,Oh sorry! Tots was still there when I left if you want to try him
+1507683057866,Received,Hahah, it's all good - I realized I have a bunch of backlogged data I should work on first, before the newer stuff on the computer.
+1507683223685,Received,Btw - for DANs, have you found inter spike interval to be more informative for plotting than, say, average firing rate (over some time scale)?
+1507683316721,Received,(I want to summarize spiking data, but there are so many ways to do that. :P)
+1507683528661,Sent,Yeah sometimes the ITI was better...it depended on the resting spike rate and the strength of the response 
+1507683603106,Sent,If one or both was pretty low then often it was easier to see the response in the ITI
+1507683616074,Sent,Although I would usually still plot it as a raster
+1507683628843,Received,Ah, I see. 
+1507683669285,Received,Yeah, I was thinking I'd do something like that first. 
+1507683749241,Received,For extracting spikes, do you just high pass filter the voltage trace and set a threshold?
+1507683869460,Received,I'm meeting with Rachel tomorrow, so I'm just trying to make the best use of time this evening. :)
+1507683926851,Sent,Yeah I actually would just do it on the artifacts in the current trace, then you don't have to do the high pass filtering
+1507683989169,Received,Hahaha, great! 
+1507684005760,Received,I was thinking about doin' that.
+1507684070008,Sent,Yeah it works well for large spikes! Especially if you filter it at 1000 Hz in the signal conditioner before digitizing 
+1507694395603,Received,Last question, if you're still up: what's the spike width of your DANs like? 
+1507697142177,Sent,Hmm I can't remember off the top of my head
+1507697186568,Sent,Pretty normal I think, maybe a little wider because of distortion by the amplifier 
+1507996655813,Sent,Do you have TH-gal4 flies? 
+1507996679209,Received,Yep. 
+1507996774278,Received,I'm in NY until Monday, but there are some in one of the trays on my side table, if you want 'em.
+1507996788367,Sent,Sweet could I take a few males? I need to set up a cross and I think I managed to contaminate my main stock and accidentally throw out my backup stock 
+1507996799999,Sent,Awesome thanks! 
+1507996827541,Received,No problem!
